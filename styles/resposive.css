@@ -1,0 +1,37 @@
+@media screen and (max-width: 576px) {
+    nav {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+  .home-section {
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 50px;
+  }
+  .home-image .main-img{
+    margin-left: 5px;
+    left: 0;
+    width: 350px;
+  }
+  .home-image .circle-background{
+    margin-left: -50px;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .collab{
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+  }
+  .card-row{
+    flex-direction: column;
+    padding: 0;
+  }
+  .featured{
+    flex-direction: column;
+  }
+}
